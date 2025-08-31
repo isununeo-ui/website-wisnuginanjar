@@ -310,13 +310,7 @@ section .about {
     padding: 60px 9%;
     }
 
-section .about h1 {
-    display: flex;
-  font-size: 30px;
-  height: 40%;
-  width: 100%;
-  right: 30%;
-}
+
 
 section .about p {
     position: relative;
@@ -370,13 +364,6 @@ section .skills{
     padding: 60px 9%;
 }
 
-section .skills h1 {
-    display: flex;
-  font-size: 30px;
-  height: 40%;
-  width: 100%;
-  right: 30%;
-}
 
 section .skills p {
     position: relative;
@@ -432,13 +419,6 @@ section .project {
 
 }
 
-section .project h1 {
-    display: flex;
-  font-size: 30px;
-  height: 50%;
-  width: 100%;
-
-}
 
 section.project p {
     position: relative;
@@ -541,13 +521,7 @@ section .contact {
     padding: 60px 9%;
 }
 
-section .contact h1 {
-    display: flex;
-    font-size: 30px;
-    height: 40%;
-    width: 100%;
-    right: 30%;
-}
+
 
 section .contact p {
     position: relative;
@@ -632,6 +606,7 @@ section .contact-img .contact-item IMG {
     width: 85%;
     object-fit: cover;      
 }
+
 
 
 
