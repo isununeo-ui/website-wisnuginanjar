@@ -422,7 +422,7 @@ section .project {
 
 section.project p {
     position: relative;
-    font-size: 35px;
+    font-size: 40px;
     width: 1000%;
    left: -70%;
     margin: 10px 0 25px;
@@ -606,6 +606,7 @@ section .contact-img .contact-item IMG {
     width: 85%;
     object-fit: cover;      
 }
+
 
 
 
