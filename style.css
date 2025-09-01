@@ -17,42 +17,27 @@ body{
 
 }
 
-@media screen {
-    header {
-        padding: 10px 5%;
-    }
 
-    nav a {
-        font-size: 20px;
-    }
+/* Gaya Default (untuk layar besar) */
+body {
+  font-size: 16px;
+}
 
-    .Home-info h1 {
-        font-size: 40px;
-    }
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
 
-    .Home-info h2 {
-        font-size: 28px;
-    }
-
-    .Home-info h3 {
-        font-size: 24px;
-    }
-
-    .Home-info p {
-        font-size: 16px;
-    }
-
-    .skills p {
-        font-size: 16px;
-    }
-
-    .project p {
-        font-size: 16px;
-    }
-
-    .contact p {
-        font-size: 16px;
-    }
+/* Gaya untuk Perangkat yang Lebih Kecil (Ponsel) */
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 14px; /* Ukuran font lebih kecil untuk ponsel */
+  }
+  .container {
+    width: 100%; /* Wadah mengambil 100% lebar layar */
+    padding: 10px; /* Tambahkan sedikit padding */
+  }
+  /* Tambahkan penyesuaian lain di sini untuk elemen-elemen Anda */
 }
 
 
@@ -642,6 +627,7 @@ section .contact-img .contact-item IMG {
     width: 85%;
     object-fit: cover;      
 }
+
 
 
 
