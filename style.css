@@ -17,7 +17,43 @@ body{
 
 }
 
+@media screen {
+    header {
+        padding: 10px 5%;
+    }
 
+    nav a {
+        font-size: 20px;
+    }
+
+    .Home-info h1 {
+        font-size: 40px;
+    }
+
+    .Home-info h2 {
+        font-size: 28px;
+    }
+
+    .Home-info h3 {
+        font-size: 24px;
+    }
+
+    .Home-info p {
+        font-size: 16px;
+    }
+
+    .skills p {
+        font-size: 16px;
+    }
+
+    .project p {
+        font-size: 16px;
+    }
+
+    .contact p {
+        font-size: 16px;
+    }
+}
 
 
 header {
@@ -606,6 +642,7 @@ section .contact-img .contact-item IMG {
     width: 85%;
     object-fit: cover;      
 }
+
 
 
 
